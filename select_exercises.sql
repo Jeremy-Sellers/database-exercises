@@ -1,6 +1,6 @@
 USE codeup_test_db;
 
-SELECT name FROM albums WHERE artist = 'Pink Floyd';
+SELECT 'The name of all albums by Pink Floyd' as caption, name FROM albums WHERE artist = 'Pink Floyd';
 
 SELECT release_date From albums Where name = 'Sgt. Pepper''s Lonely Hearts Club Band';
 
